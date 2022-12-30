@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<div>
-			<h1>This is Footer section.</h1>
+		<div className='border border-top-2 mt-4'>
+			<h4 className='text-center my-3'>All Rigth Reserve in Nayon Roy.</h4>
 		</div>
 	);
 };

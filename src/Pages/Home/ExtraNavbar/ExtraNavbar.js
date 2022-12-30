@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 
 const ExtraNavbar = () => {
 	const [width, setWidth] = useState(0)
-	const dragging=useRef()
+  const dragging = useRef()
+  
 	useEffect(() => {
 		setWidth(dragging.current.scrollWidth - dragging.current.offsetWidth)
 		console.log(dragging.current.scrollWidth, dragging.current.offsetWidth);

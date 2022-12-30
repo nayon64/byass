@@ -5,7 +5,7 @@ import Navbar from '../../Shared/Navbar/Navbar';
 
 const Main = () => {
 	return (
-    <div >
+    <div className="container">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>
